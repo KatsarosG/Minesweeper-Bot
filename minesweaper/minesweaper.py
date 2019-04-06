@@ -54,6 +54,9 @@ while True:
 
     img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_RGB2GRAY)
 
+    
+###################### HERE IS WHAT YOU NEED TO CHANGE##############################   
+ 
     ones = findItem('location of 1.png', 0.9)
     twos = findItem('location of 2.png', 0.9)
     threes = findItem('location of 3.png', 0.9)
@@ -61,6 +64,8 @@ while True:
     fives = findItem(location of 5.png', 0.9)
     unknowns = findItem('location of unknown.png', 0.9)
     flags = findItem('location of flag.png', 0.9)
+                                         
+#######################################################################################
 
     #image = pyautogui.screenshot()
     #image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
