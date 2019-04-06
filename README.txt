@@ -10,7 +10,7 @@ Required modules:   (to download them run the followings on the terminal)
   
 The program is designed for the classic look of minesweeper found at http://minesweeperonline.com
 
-In the program you need to change the png images' locations to your's.
+In the program you need to change the png images' location ,found in the same folder as the program, to your's.
 
 It is recomended to play with the game zoomed at 200% on the left hand side of the screen.
 
