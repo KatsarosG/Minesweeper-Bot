@@ -15,3 +15,4 @@ It is recomended to play with the game zoomed at 200% on the left hand side of t
 Also it is not sure that the program will win 100% of the time as when theres a 50/50 chance it does
 nothing so as not to lose.
 
+ 
