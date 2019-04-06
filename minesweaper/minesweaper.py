@@ -30,7 +30,7 @@ img_rgb = img_rgb[0:1000 , 0:1400]
 
 img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_RGB2GRAY)
 
-findItem('E:\\Python\\PROJECTS\\minesweaper\\unknown.png', 0.9)
+findItem('location of unknown.png', 0.9)
 
 
 cv2.imwrite('res.png', img_rgb)
@@ -39,7 +39,7 @@ cv2.imshow('result', img_rgb)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-#print(findItem('E:\\Python\\PROJECTS\\minesweaper\\unknown.png'))
+#print(findItem('location of unknown.png'))
 
 #cv2.imshow('result', output)
 #cv2.waitKey(0)  
@@ -54,13 +54,13 @@ while True:
 
     img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_RGB2GRAY)
 
-    ones = findItem('E:\\Python\\PROJECTS\\minesweaper\\1.png', 0.9)
-    twos = findItem('E:\\Python\\PROJECTS\\minesweaper\\2.png', 0.9)
-    threes = findItem('E:\\Python\\PROJECTS\\minesweaper\\3.png', 0.9)
-    fours = findItem('E:\\Python\\PROJECTS\\minesweaper\\4.png', 0.9)
-    fives = findItem('E:\\Python\\PROJECTS\\minesweaper\\5.png', 0.9)
-    unknowns = findItem('E:\\Python\\PROJECTS\\minesweaper\\unknown.png', 0.9)
-    flags = findItem('E:\\Python\\PROJECTS\\minesweaper\\flag.png', 0.9)
+    ones = findItem('location of 1.png', 0.9)
+    twos = findItem('location of 2.png', 0.9)
+    threes = findItem('location of 3.png', 0.9)
+    fours = findItem('location of 4.png', 0.9)
+    fives = findItem(location of 5.png', 0.9)
+    unknowns = findItem('location of unknown.png', 0.9)
+    flags = findItem('location of flag.png', 0.9)
 
     #image = pyautogui.screenshot()
     #image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
